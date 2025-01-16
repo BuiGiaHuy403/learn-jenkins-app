@@ -70,10 +70,10 @@ pipeline {
             }
         }
 
-        // post {
-        //     always {
-        //         junit 'test-results/junit.xml'
-        //     }
-        // }
+       post {
+            always{
+                junit 'tests-results/junit.xm;'
+            }
+       }
     }
 }
